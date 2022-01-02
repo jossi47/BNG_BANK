@@ -1,0 +1,1 @@
+data:image/svg+xml;charset=utf8,%3Csvg width='20px' height='20px' viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3Earrow-right-thin%3C/title%3E%3Cpath d='M39.18,22,25.59,8.41a2,2,0,0,1,2.83-2.82l17,17a2,2,0,0,1,0,2.82l-17,17a2,2,0,0,1-2.83-2.82L39.18,26H4a2,2,0,0,1,0-4H39.18Z' fill-rule='nonzero' fill='%23009FDA'/%3E%3C/svg%3E
