@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html lang="en">
 
    
@@ -12,35 +10,10 @@
   <meta name="author" content="">
 
  <title>
-        Tasha Ray    </title>
+        Change Password    </title>
 
-<link rel = "icon" type ="images/svg"img style="height:300px;" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/images/logo-2x.svg"/>
 
     <!-- /load styles -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf5Q9Ifjh" crossorigin="anonymous">
-  <meta charset='UTF-8'>
-  
- 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf5Q9Ifjh" crossorigin="anonymous">
- <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
- <script src="https://kit.fontawesome.com/7dbe59f4c2.js" crossorigin="anonymous"></script>
-
-  <!---bootstrap-->
-   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" ></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" ></script>
-  
-  <script src="C:/Users/joshu/OneDrive/Desktop/hlogo/js/script.js"type="text/javascript"></script>
-    
-
-
-
-
-
-
-
-
 
   <!-- Custom fonts for this template-->
   <link href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -81,7 +54,7 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
 s1.async=true;
-s1.src='C:/Users/joshu/OneDrive/Desktop/All/embed.tawk.to/60f28a83649e0a0a5ccca28a/1fapmq4gc';
+s1.src='C:/Users/joshu/OneDrive/Desktop/All/60f28a83649e0a0a5ccca28a/1fapmq4gc';
 s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
@@ -147,13 +120,13 @@ s0.parentNode.insertBefore(s1,s0);
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar" style='font-size: 18px;color:red;'>
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar" style='font-size: 18px;'>
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/home.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="home.html">
       
         <div class="sidebar-brand-text mx-3">
-            <img class="img-responsive" style="width: 100px;height:600px; " src="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/images/logo-2x.svg " />          </div>
+            <img class="img-responsive" style="width: 100px; " src="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/images/logo.png " />          </div>
       </a>
 
       <!-- Divider -->
@@ -223,12 +196,12 @@ s0.parentNode.insertBefore(s1,s0);
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseU" aria-expanded="true" aria-controls="collapseUtilities">
           <i class="fas fa-info"></i>
-          <span>How safe is my Axion Bank Visa Credit Card?</span>
+          <span>How safe is my Capital Reliance Bank Visa Credit Card?</span>
         </a>
         <div id="collapseU" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
 
-  <p>Your Axion Bank Visa Credit Card is very safe because it has added advantage of Verified by Visa IPIN which ensures that while paying for goods on the internet, ONLY the true owner of a card can authorize payment on the card.<br /><br />
+  <p>Your Capital Reliance Bank Visa Credit Card is very safe because it has added advantage of Verified by Visa IPIN which ensures that while paying for goods on the internet, ONLY the true owner of a card can authorize payment on the card.<br /><br />
 
 Follow these easy steps next time you're shopping online to activate your Verified by Visa iPIN.<br />
 * Click the 'CHECK-OUT' button or the 'PAY-NOW' button while shopping.<br />
@@ -247,7 +220,7 @@ Follow these easy steps next time you're shopping online to activate your Verifi
        <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseU" aria-expanded="true" aria-controls="collapseUtilities">
           <i class="fas fa-info"></i>
-          <span>What documentation is required to get a Payroll <br>Credit Card?</span>
+          <span>What documentation is requjqueired to get a Payroll <br>Credit Card?</span>
         </a>
         <div id="collapseU" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
@@ -266,13 +239,25 @@ Follow these easy steps next time you're shopping online to activate your Verifi
       </li>
         
            <li class="nav-item">
-        <a class="nav-link" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/tickets.html">
+        <a class="nav-link" href="tickets.html">
           <i class="fas fa-fw fa-envelope"></i>
           <span>Contact Customer Care</span></a>
       </li>
         
         
-       
+        <li class="nav-item">
+            <a class="nav-link" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/contact.html" target="_blank">
+          <i class="fas fa-fw fa-map-marker"></i>
+          <span>Capital Reliance BankNear Me</span></a>
+      </li>
+      <!-- Divider -->
+      <hr class="sidebar-divider">
+
+      <!-- Heading -->
+      <div class="sidebar-heading">
+    Security Settings
+      </div>
+
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
@@ -360,7 +345,7 @@ Follow these easy steps next time you're shopping online to activate your Verifi
                 <h6 class="dropdown-header">
                  System Alerts Center
                 </h6>
-                                  <a class="dropdown-item d-flex align-items-center" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/notifications.html?view=12">
+                                  <a class="dropdown-item d-flex align-items-center" href="notifications.html?view=12">
                   <div class="mr-3">
                     <div class="icon-circle bg-primary">
                       <i class="fas fa-file-alt text-white"></i>
@@ -415,9 +400,9 @@ Follow these easy steps next time you're shopping online to activate your Verifi
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow">
               <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                <span class="mr-2 d-none d-lg-inline text-gray-600 small"> Tasha Ray</span>
+                <span class="mr-2 d-none d-lg-inline text-gray-600 small"> Alexandra Patrick</span>
               
-                                                  <img class="img-responsive" style="width: 25px; " src="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/uploads/#" />              </a>
+                                                  <img class="img-responsive" style="width: 25px; " src="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/uploads/Pat.jpeg" />              </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/profile.html">
@@ -449,283 +434,72 @@ Follow these easy steps next time you're shopping online to activate your Verifi
             <div class="row">
                 <div class="col-md-12">        
                     
-                  
-        <!-- Begin Page Content -->
-        <div class="container-fluid">
-         <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                  <legend style='text-align:center;background-color:#fff;border-radius:5px;height:35px;line-height:35px;color:#FFFFFF;width:200px;font-size:16px'></legend>
+	<div id="transfersection" style="">
+	</div></fieldset><br />
+	<fieldset style='border-radius:5px;border-color:#fff;border-width:1px;border-style:solid;'>
+    <div id="fundtransfer" style="padding-left:10px;" >
       
-              
-              <!-- Dropdown - Messages -->
-             
-            </div>
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-              <h1 class="h3 mb-0 text-gray-800">Welcome Back <span class="text-success">Tasha Ray</span></h1>
-            <a href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/statement.html" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-upload fa-sm text-white-50"></i> View Account Statement</a>
-          </div>
-
-          <!-- Content Row -->
-        <div class="row">
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 ">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-md font-weight-bold text-warning text-uppercase mb-1">
-                          <span class="badge badge-success badge-top-right">MAIN ACCOUNT</span></div>
-                        <div class="h5 mb-0  text-gray-800">
-                             <p class="mb-1 h6 text-capitalize" style="font-weight: bold;">Savings Account</p>
-
-                                      <span style="font-size: 14px; ">    Account N<u>o</u>:</span>
-                                      <span style="font-weight: bold;">2741339630</span>
-
-                          <span class="badge badge-danger badge-top-right text-capitalize">active</span>
-                         
-                      <i class="fas fa-wallet fa-1x" style="color: lightblue; "></i>
-                  
-                        </div>
-                    </div>
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-                    <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-md font-weight-bold text-primary text-uppercase mb-1">
-                          <span class="badge badge-primary badge-top-right">My Balance</span></div>
-                      <div class="h5 mb-0 text-gray-800">€20,000,036.00                       <br><span style="font-size: 12px; font-weight: bold;">5rd  November, 2021 </span></div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fa fa-donate fa-1x "style="color: lightblue; "></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 ">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-md font-weight-bold text-success text-uppercase mb-1">
-                          <span class="badge badge-success badge-top-right" >Last Credit</span></div>
-                      <div class="h5 mb-0 text-gray-800">                                        
-                                €4,590,020.00                      
-                      <br><span style="font-size: 12px; font-weight: bold;"> 20 September , 2021</span></div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-dollar-sign fa-1x" style="color: red; "></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Earnings (Monthly) Card Example -->
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-warning shadow h-100 ">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-md font-weight-bold text-danger text-uppercase mb-1">
-                          <span class="badge badge-warning badge-top-right" >Last Debit</span></div>
-                      <div class="row no-gutters align-items-center">
-                        <div class="col-auto">
-                          <div class="h5 mb-0 mr-3 text-gray-800">                                        
-                                   €105,000.00                           <br><span style="font-size: 12px; font-weight: bold;"> 18 August , 2021</span></div>
-                        </div>
-                       
-                      </div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-hand-holding-usd fa-1x" style="color: gold; "></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-            
-          </div>
-        </div> 
-            <div class="row">
-
-            <!-- Area Chart -->
-            <div class="col-xl-9 col-lg-7">
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Last 10 Transactions Overview</h6>
-                  <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">Take Action:</div>
-                      <a class="dropdown-item" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/statement.html">View All</a>
-                      <a class="dropdown-item" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/international-transfer.html">Transfer Money</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="tickets.html">Contact Customer Care</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card Body -->
-
-
-<div class="table-responsive bg-white"  style="background-color:#FFFFFF;background-image:url('C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/images/axion.jpg');background-color: white;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;">
- 
-       
-                                      <hr style='border-top:1px dashed #296dc1'/><table class='table table-condensed' ><tr style='background-color: seared;height:40px;font-weight:bolder;text-indent:5px;font-size:18px;color:#FFFFFF;'>
-                                               <td>Transaction Date</td><td>Reference Number</td><td>Description</td><td>Amount</td><td>Depositor</td><td>Status</td></tr>
-                                               
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-09-20 12:56:00</td>
-                                               <td>TX1000006198</td>
-                                               <td>Property Plot ASR12 Sale</td>
-                                               <td>€4,590,020.00</td>
-                                               <td>Winkworth Pimlico &amp; Westminster Estate Agents</td><td>credit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-09-16 14:44:00</td>
-                                               <td>TX1000005955</td>
-                                               <td>Production capital</td>
-                                               <td>€21,000,000.00</td>
-                                               <td>Rainmaker Video</td><td>credit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-09-07 16:05:00</td>
-                                               <td>TX10009648</td>
-                                               <td>Shooting Products Purchased</td>
-                                               <td>€480,000.00</td>
-                                               <td>Online transfer (Alfred Lin ***3401)</td><td>debit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-08-28 14:21:00</td>
-                                               <td>TX1000000210</td>
-                                               <td>Film production contract</td>
-                                               <td>€18,000,000.00</td>
-                                               <td>Stone Soup Production Company</td><td>credit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-08-18 17:03:00</td>
-                                               <td>TX10009197</td>
-                                               <td>Fam</td>
-                                               <td>€105,000.00</td>
-                                               <td>Online transfer (William C. J. ***510)</td><td>debit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-08-12 12:59:00</td>
-                                               <td>TX1000002225</td>
-                                               <td>Property Plot CB12 Sale</td>
-                                               <td>€3,508,066.00</td>
-                                               <td>UBS Global Asset Management</td><td>credit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-08-03 20:01:00</td>
-                                               <td>TX1000007142</td>
-                                               <td>Award reward</td>
-                                               <td>€809,000.00</td>
-                                               <td>Taipei Film Commission</td><td>credit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-07-28 15:02:00</td>
-                                               <td>TX1000004719</td>
-                                               <td>Investment returns</td>
-                                               <td>€1,440,000.00</td>
-                                               <td>FS Global Ltd</td><td>credit</td>
-                                        
-                                           </tr>
-                                             
-                                           <tr style='text-indent:5px;font-size:15px;height:35px' class='table-striped'><td>2021-07-19 13:44:00</td>
-                                               <td>TX1000000313</td>
-                                               <td>filming contract</td>
-                                               <td>€8,350,950.00</td>
-                                               <td>C&amp;J Films</td><td>credit</td>
-                                        
-                                           </tr>
-                                                                                 </table>   </div>
-              </div>
-            </div>
-
-            <!-- Pie Chart -->
-            <div class="col-xl-3 col-lg-5">
-              <div class="card shadow mb-4">
-                <!-- Card Header - Dropdown -->
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
-                  <div class="dropdown no-arrow">
-                    <a class="dropdown-toggle" href="" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                      <div class="dropdown-header">links:</div>
-                      <a class="dropdown-item" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/statement.html">Account Statement</a>
-                 
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/customer/profile.html">Account Details</a>
-                    </div>
-                  </div>
-                </div>
-                <!-- Card Body -->
-                <div class="card-body">
-                  <div class="chart-pie pt-4 pb-2">
-                    <canvas id="myPieChart"></canvas>
-                  </div>
-                  <div class="mt-4 text-center small">
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-success"></i> Withdrawals
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-primary"></i> Deposits
-                    </span>
-                    <span class="mr-2">
-                      <i class="fas fa-circle text-info"></i> Others
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-       
+    </div>
+   </div>
+   </fieldset>
+   <div id="containerdetails" style="background-color:#FFFFFF;width:68%;min-height:750px;float:left;background-image:url('C:/Users/joshu/OneDrive/Desktop/All/capitalreliancbank.com/secure/images/watermark2.png');background-repeat:inherit;">
+	                   	                    
+	 
+								 
+	  <div id="errsection" style="width:600px;clear:both;display:none;padding:20px;">
+       <div id="errhead" style="background-color:#FF0000;border-radius:5px;color:#FFFFFF;font-weight:bold;text-align:center;">ERROR!!!</div>
+	   <div id="err" style="color:#000;height:220px;padding:10px;background-color:#FFFFFF;-moz-box-shadow:0px 0px 10px #555555;
+	 -webkit-box-shadow:0px 0px 10px #555555;box-shadow:0px 0px 10px #555555;border-radius:5px;border-color:#FFFFFF;font-size:12px;"></div>
+	 </div>
     
-     
-            </div>
-        <!-- /.container-fluid -->
+    <h3 class="page-header" style="font-weight: bold; color: black;">Change Account Password</h3>
+        <div class="col-md-8 col-md-offset-1 bg-white">
 
-     <!-- /.row --></div></div>
+    <form method="post" action="" name="register">
+        <fieldset>
+           
+            <div class="form-group  "><div class="">
+                      <span class="input-group-addon"><i class="fa fa-fw fa-envelope "></i></span>
+                <label for='id=inputError'>New Password</label>
+                <input  type="password" class="form-control" placeholder="Password" name="pass"
+                        value=""
+ required>
+                <span style="color: red;" class="text-capitalize"></span>
+                </div></div>
+             <div class="form-group "><div class="">
+                      <span class="input-group-addon"><i class="fa fa-fw fa-check-square "></i></span>
+                <label for='id=inputError'>Confirm Password</label>
 
-    <!-- Footer -->
+                <input  type="password" class="form-control" placeholder="Confirm Password" name="cpass"
+                        value=""
+ required>
+                <span style="color: red;" class="text-capitalize"></span>
+  
+                 </div></div>
+            
+           
+            <!-- Change this to a button or input when using this as a form -->
+            <button type="submit" class="btn btn-md btn-primary pull-right">Change Account Password </button>
+        </fieldset>
+    </form>
+
+</div>
+</div>
+<!-- /.row --></div></div>
+
+ <!-- Footer -->
      
       
       <footer class="sticky-footer bg-white">
                     <div> <!-- bottombar Search -->
           <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-        <p>You have logged in from Switzerland
- with IP: 78.135.57.227<br />Today:  5 Nov 2021</p>
+        <p>You have logged in from Cyprus
+ with IP: 78.135.57.227<br />Today:  23 Nov 2021</p>
           </form></div>
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Axion Bank  2019</span>
+            <span>Copyright &copy; Capital Reliance Bank  2019</span>
           </div>
         </div>
       </footer>
